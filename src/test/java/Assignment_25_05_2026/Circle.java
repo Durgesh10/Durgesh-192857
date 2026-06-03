@@ -1,0 +1,18 @@
+package Assignment_25_05_2026;
+
+public class Circle extends Shape {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public double area() {
+        return Math.PI * radius * radius;
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Circle with radius " + radius);
+    }
+}
